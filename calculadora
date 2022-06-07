@@ -1,0 +1,13 @@
+# creando una calculadora
+numero1= float(input("ingreso el primer numero:"))
+operador= input("ingrese el operador")
+numero2= float(input("ingrese el segundo numero"))
+if operador=="+":
+    print(numero1+numero2)
+elif operador=="-":
+    print(numero1-numero2)
+elif operador=="*":
+    print(numero1*numero2)
+elif operador=="/":
+    print(numero1/numero2)
+else: print("operador invaliddo")
